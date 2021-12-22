@@ -249,7 +249,7 @@ $this->beginPage();
         </a>
       </div>
 
-      <div class="row" style="margin-top:5rem;">
+      <div class="arrangediv" style="margin-top:5rem;">
         <hr class="f">
         <p>
 
@@ -376,7 +376,7 @@ $this->beginPage();
 
       </div>
 
-      <div class="row" style="margin-top:0rem;">
+      <div class="arrangedivtwo" style="margin-top:0rem;">
         <hr class="f">
       </div>
 
@@ -403,7 +403,7 @@ $this->beginPage();
 
       <?php if (!Yii::$app->user->isGuest): ?>
 
-        <div class="row" style="display: inline-block; text-align: left;width: 100%;">
+        <div class="arrangedivcustom" style="display: inline-block; text-align: left;width: 100%;">
           <p style="font-size: 0.8em; text-align: left;"><?= Yii::$app->user->identity->email ?></p>
           <?php
 		 
@@ -539,7 +539,7 @@ $this->beginPage();
         <?php echo $content; ?>
       <?php endif; ?>
 
-      <div class="row" style="margin-top:5rem;">
+      <div class="arrangedivlast" style="margin-top:5rem;">
         <hr class="f">
         <p>
           <small>

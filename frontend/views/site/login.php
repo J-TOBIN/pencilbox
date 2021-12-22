@@ -15,7 +15,7 @@ $this->registerCss('.input-lg{border: none; font-size: 0.8em; text-align: left;}
 <div class="site-login">
 <h2>LOGIN</h2>
 <hr>
-	<div class="row">
+	<div class="arrangeformdiv">
 		<?php $form = ActiveForm::begin(['id' => 'login-form', 'options' => ['autocomplete' => 'off'],]); ?>
 
 		<table>

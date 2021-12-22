@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <h2>JOIN</h2>
         <hr>
-        <div class="row">
+        <div class="arrangeformdiv">
             <?php $form = ActiveForm::begin(['options' => ['autocomplete' => 'off'],]); ?>
             <table>
                 <tr>

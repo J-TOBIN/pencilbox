@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-reset-password">
     <h2>Reset <br> Password</h2><hr>
         <p></p>
-        <div class="row">
+        <div class="arrangeformdiv">
             <?php $form = ActiveForm::begin(['id' => 'reset-password-form', 'options' => ['autocomplete' => 'off'],]); ?>
             <table>
                 <tr>

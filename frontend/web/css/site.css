@@ -353,4 +353,10 @@ hr.f {
 .input{height:28px; width: 250px}
 .input-lg{height:38px; width:250px; color: black; background-color: white; text-align: left  }
 
-background-color: black; !important;
+.invalid-feedback {
+    font-size: 21px;
+    color: #000;
+}
+form#w0 a {
+	font-size: 0.9em
+}
